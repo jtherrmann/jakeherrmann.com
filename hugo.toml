@@ -1,5 +1,88 @@
-# TODO: update these values
-baseURL = 'https://example.org/'
+# Adapted from:
+# https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md#complete-example
+
+# TODO where is baseurl used?
+baseurl = "http://www.example.com"
+title = "Jake Herrmann"
 locale = 'en-us'
-title = 'My New Hugo Project'
+defaultcontentlanguage = "en"
 theme = "hugo-coder"
+
+# TODO: what is this?
+[pagination]
+pagerSize = 20
+
+# Allows comments on blog posts?
+# [services]
+# [services.disqus]
+# shortname = "yourdiscussshortname"
+
+# TODO: what is this?
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Jake Herrmann"
+
+  # TODO: update
+  info = "Running scientific workflows at scale"
+
+  # TODO: where are these used?
+  description = "Jake Herrmann's personal website"
+  keywords = "blog,developer,personal"
+
+  # TODO: create this?
+  avatarurl = "images/avatar.jpg"
+  # TODO: what is this?
+  # gravatar = "john.doe@example.com"
+
+  # TODO: create these
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  # TODO: or 2025 when domain name was registered?
+  since = 2026
+
+  # TODO: what is this?
+  enableTwemoji = true
+
+  # TODO: auto selects dark mode?
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+# TODO: what is this?
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# TODO:
+# - add email and linkedin?
+# - open links in new tab
+[[params.social]]
+  # TODO: what is the name used for? fix the GitHub typo?
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/jtherrmann"
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa-brands fa-gitlab fa-2x"
+#   weight = 2
+#   url = "https://gitlab.com/johndoe/"
+
+# TODO: update these
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
