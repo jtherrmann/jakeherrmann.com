@@ -1,0 +1,4 @@
+# Created by `hugo server`
+.hugo_build.lock
+public/
+resources/
