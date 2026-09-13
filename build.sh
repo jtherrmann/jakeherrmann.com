@@ -107,7 +107,9 @@ main() {
 
   # Build the project
   echo "Building the project..."
-  hugo build --gc --minify --baseURL "${CF_PAGES_URL}"
+  # TODO fix base url
+  # hugo build --gc --minify --baseURL "${CF_PAGES_URL}"
+  hugo build --gc --minify
 }
 
 main "$@"
