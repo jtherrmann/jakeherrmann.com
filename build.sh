@@ -107,9 +107,14 @@ main() {
 
   # Build the project
   echo "Building the project..."
-  # TODO fix base url
-  # hugo build --gc --minify --baseURL "${CF_PAGES_URL}"
-  hugo build --gc --minify
+  if [ "$WORKERS_CI_BRANCH" = 'main' ]; then
+    # TODO: replace with custom domain
+    BASEURL='https://personal-site.jtherrmann1.workers.dev'
+  else
+    BASEURL="https://$WORKERS_CI_BRANCH-personal-site.jtherrmann1.workers.dev"
+  fi
+  echo "Base URL: $BASEURL"
+  hugo build --gc --minify --baseURL "$BASEURL"
 }
 
 main "$@"
