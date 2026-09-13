@@ -60,6 +60,7 @@ main() {
 
   # Install Hugo
   echo "Installing Hugo ${HUGO_VERSION}..."
+  # TODO: if extended version is no longer needed, can revert to the original `curl` and `tar` commands below:
   # curl -sfL --output-dir "${build_temp_dir}" -O "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_linux-amd64.tar.gz"
   curl -sfL --output-dir "${build_temp_dir}" -O "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
   mkdir -p "${HOME}/.local/hugo"

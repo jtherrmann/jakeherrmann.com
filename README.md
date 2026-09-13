@@ -28,6 +28,8 @@ git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
 
 TODO: see https://github.com/luizdepra/hugo-coder#quick-start for more advice on configuring `hugo.toml`
 
+TODO: If https://github.com/luizdepra/hugo-coder/pull/991 is merged, can update `build.sh` to install standard Hugo rather than extended.
+
 ## Notes
 
 ### Hugo
@@ -68,3 +70,14 @@ If this project ever requires Dart Sass, Go, or Node/npm,
 those parts would need to be uncommented in the [build script](./build.sh).
 
 All Cloudflare-related files in this project have a `Cloudflare` comment in them.
+
+### Sass
+
+Sass is a CSS extension language.
+Your theme may require LibSass (included in Hugo's extended edition),
+the newer Dart Sass (installed separately),
+or neither (many features of Sass are now included in CSS).
+Also see: https://gohugo.io/functions/css/sass/
+
+Currently, `build.sh` controls whether Hugo regular vs. extended is installed
+and whether Dart Sass is installed.
