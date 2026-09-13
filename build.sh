@@ -108,8 +108,7 @@ main() {
   # Build the project
   echo "Building the project..."
   if [ "$WORKERS_CI_BRANCH" = 'main' ]; then
-    # TODO: replace with custom domain
-    BASEURL='https://personal-site.jtherrmann1.workers.dev'
+    BASEURL='https://jakeherrmann.com'
   else
     BASEURL="https://$WORKERS_CI_BRANCH-personal-site.jtherrmann1.workers.dev"
   fi
