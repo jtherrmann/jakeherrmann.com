@@ -8,6 +8,11 @@ locale = 'en-us'
 defaultcontentlanguage = "en"
 theme = "hugo-coder"
 
+# Cloudflare
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # TODO: what is this?
 [pagination]
 pagerSize = 20

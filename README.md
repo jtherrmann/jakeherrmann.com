@@ -30,6 +30,8 @@ TODO: see https://github.com/luizdepra/hugo-coder#quick-start for more advice on
 
 ## Notes
 
+### Hugo
+
 This project was created with:
 
 ```sh
@@ -57,3 +59,12 @@ Just a few more steps...
 
 See documentation at https://gohugo.io/.
 ```
+
+### Cloudflare
+
+I followed https://gohugo.io/host-and-deploy/host-on-cloudflare/ to host this project on Cloudflare.
+
+If this project ever requires Dart Sass, Go, or Node/npm,
+those parts would need to be uncommented in the [build script](./build.sh).
+
+All Cloudflare-related files in this project have a `Cloudflare` comment in them.
