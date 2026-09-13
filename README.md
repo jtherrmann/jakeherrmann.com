@@ -64,7 +64,7 @@ See documentation at https://gohugo.io/.
 
 I followed https://gohugo.io/host-and-deploy/host-on-cloudflare/ to host this project on Cloudflare.
 
-If this project ever requires Dart Sass, Go, or Node/npm,
+If this project ever requires Go or Node/npm,
 those parts would need to be uncommented in the [build script](./build.sh).
 
 All Cloudflare-related files in this project have a `Cloudflare` comment in them.
