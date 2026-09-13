@@ -10,7 +10,7 @@ set -euo pipefail
 
 # TODO: how to keep up-to-date?
 # Define tool versions
-DART_SASS_VERSION=1.104.0
+# DART_SASS_VERSION=1.104.0
 # GO_VERSION=1.27.0
 HUGO_VERSION=0.166.0
 # NODE_VERSION=24.20.0
@@ -45,10 +45,10 @@ main() {
   mkdir -p "${HOME}/.local"
 
   # Install Dart Sass
-  echo "Installing Dart Sass ${DART_SASS_VERSION}..."
-  curl -sfL --output-dir "${build_temp_dir}" -O "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-  tar -C "${HOME}/.local" -xf "${build_temp_dir}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-  export PATH="${HOME}/.local/dart-sass:${PATH}"
+  # echo "Installing Dart Sass ${DART_SASS_VERSION}..."
+  # curl -sfL --output-dir "${build_temp_dir}" -O "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+  # tar -C "${HOME}/.local" -xf "${build_temp_dir}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+  # export PATH="${HOME}/.local/dart-sass:${PATH}"
 
   # Install Go
   # if [[ -f "go.mod" ]]; then
@@ -75,7 +75,7 @@ main() {
 
   # Log tool versions
   echo "Logging tool versions..."
-  command -v sass &> /dev/null && echo "Dart Sass: $(sass --version)" || echo "Dart Sass: not installed"
+  # command -v sass &> /dev/null && echo "Dart Sass: $(sass --version)" || echo "Dart Sass: not installed"
   # command -v go &> /dev/null && echo "Go: $(go version)" || echo "Go: not installed"
   command -v hugo &> /dev/null && echo "Hugo: $(hugo version)" || echo "Hugo: not installed"
   # command -v node &> /dev/null && echo "Node.js: $(node --version)" || echo "Node.js: not installed"
