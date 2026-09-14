@@ -28,7 +28,8 @@ style = "github-dark"
   author = "Jake Herrmann"
 
   # TODO: update
-  info = "Running scientific workflows at scale"
+  # info = "Running scientific workflows at scale"
+  info = "Software Engineer"
 
   # TODO: where are these used?
   description = "Jake Herrmann's personal website"
