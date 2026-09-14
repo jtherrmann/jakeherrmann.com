@@ -8,12 +8,26 @@ Install: https://gohugo.io/installation/linux/
 sudo dnf install hugo
 ```
 
-## Serve
+## Serve locally
 
 Run:
 
 ```sh
 hugo server
+```
+
+## Deploy
+
+Pushing to `main` deploys to <https://jakeherrmann.com>.
+
+Pushing to any other branch deploys to
+`https://<branch>-personal-site.jtherrmann1.workers.dev`,
+e.g. <https://develop-personal-site.jtherrmann1.workers.dev>.
+
+Test changes on `develop`, then release to prod via:
+
+```sh
+git switch main && git merge develop && git push && git switch develop
 ```
 
 ## Theme
