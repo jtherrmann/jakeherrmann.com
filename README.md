@@ -85,6 +85,8 @@ those parts would need to be uncommented in the [build script](./build.sh).
 
 All Cloudflare-related files in this project have a `Cloudflare` comment in them.
 
+TODO: left off at https://gohugo.io/host-and-deploy/host-on-cloudflare/#build-cache
+
 ### Sass
 
 Sass is a CSS extension language.
