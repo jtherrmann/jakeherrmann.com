@@ -66,8 +66,11 @@ style = "github-dark"
   author = "authors"
 
 # TODO:
-# - add email and linkedin?
+# - add linkedin?
 # - open links in new tab
+#
+# https://fontawesome.com/icons
+# https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md#social-icons-configuration
 [[params.social]]
   # TODO: what is the name used for? fix the GitHub typo?
   name = "Github"
@@ -77,8 +80,14 @@ style = "github-dark"
 # [[params.social]]
 #   name = "Gitlab"
 #   icon = "fa-brands fa-gitlab fa-2x"
-#   weight = 2
+#   weight = 1
 #   url = "https://gitlab.com/johndoe/"
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 1
+  # TODO: obfuscate real address
+  url = "mailto:example@example.com"
 
 # TODO: update these
 # [[menu.main]]
