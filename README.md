@@ -87,6 +87,8 @@ All Cloudflare-related files in this project have a `Cloudflare` comment in them
 
 TODO: left off at https://gohugo.io/host-and-deploy/host-on-cloudflare/#build-cache
 
+TODO: limited number of deployments per month on free plan? do deployments without changes count?
+
 ### Sass
 
 Sass is a CSS extension language.
