@@ -35,15 +35,14 @@ style = "github-dark"
   description = "Jake Herrmann's personal website"
   keywords = "blog,developer,personal"
 
-  # TODO: create this?
-  avatarurl = "images/avatar.jpg"
-  # TODO: what is this?
+  # TODO: use one of these
+  # avatarurl = "images/avatar.jpg"
   # gravatar = "john.doe@example.com"
 
   # TODO: create these
-  faviconSVG = "/img/favicon.svg"
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
+  # faviconSVG = "/img/favicon.svg"
+  # favicon_32 = "/img/favicon-32x32.png"
+  # favicon_16 = "/img/favicon-16x16.png"
 
   # TODO: or 2025 when domain name was registered?
   since = 2026
@@ -82,11 +81,11 @@ style = "github-dark"
 #   url = "https://gitlab.com/johndoe/"
 
 # TODO: update these
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
-[[menu.main]]
-  name = "About"
-  weight = 2
-  url = "about/"
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url  = "posts/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 2
+#   url = "about/"
