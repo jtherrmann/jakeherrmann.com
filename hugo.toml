@@ -71,8 +71,12 @@ style = "github-dark"
 #
 # https://fontawesome.com/icons
 # https://github.com/luizdepra/hugo-coder/blob/main/docs/configurations.md#social-icons-configuration
+#
+# Notes:
+# - `name` becomes the `aria-label` attribute of the HTML element,
+#   which is used for accessbility: https://fontawesome.com/v4/accessibility/
+# - `fa-2x` refers to the icon size
 [[params.social]]
-  # TODO: what is the name used for? fix the GitHub typo?
   name = "Github"
   icon = "fa-brands fa-github fa-2x"
   weight = 1
