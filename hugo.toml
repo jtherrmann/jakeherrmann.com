@@ -54,9 +54,10 @@ style = "github-dark"
   colorScheme = "auto"
   hidecolorschemetoggle = false
 
+  # Filepaths are relative to the assets/ dir:
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+  customJS = ["js/link-conversion.js"]
 
 # TODO: what is this?
 [taxonomies]
@@ -91,7 +92,14 @@ style = "github-dark"
   icon = "fa-solid fa-envelope fa-2x"
   weight = 1
   # TODO: obfuscate real address
-  url = "mailto:example@example.com"
+  url = "nbjmup;fybnqmfAfybnqmf/dpn"
+  # Note on `rel` attribute:
+  # https://spencermortensen.com/articles/email-obfuscation/#link-conversion
+  # also recommends adding `noindex`, but I suspect that's not a valid value for `rel`, see:
+  # https://stackoverflow.com/a/55264065
+  # https://developers.google.com/search/docs/crawling-indexing/block-indexing
+  # https://www.w3schools.com/tags/att_a_rel.asp
+  rel = "nofollow"
 
 # TODO: update these
 # [[menu.main]]
