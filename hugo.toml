@@ -29,7 +29,8 @@ style = "github-dark"
 
   # TODO: update
   # info = "Running scientific workflows at scale"
-  info = "Software Engineer"
+  # info = "Software Engineer"
+  info = "Under construction, check back later! 👷"
 
   # TODO: where are these used?
   description = "Jake Herrmann's personal website"
@@ -57,7 +58,8 @@ style = "github-dark"
   # Filepaths are relative to the assets/ dir:
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
-  customJS = ["js/link-conversion.js"]
+  # TODO: use less obvious filename:
+  # customJS = ["js/link-conversion.js"]
 
 # TODO: what is this?
 [taxonomies]
@@ -87,18 +89,19 @@ style = "github-dark"
 #   icon = "fa-brands fa-gitlab fa-2x"
 #   weight = 1
 #   url = "https://gitlab.com/johndoe/"
-[[params.social]]
-  name = "Email"
-  icon = "fa-solid fa-envelope fa-2x"
-  weight = 1
-  url = "4d41494c544f1a4a54484552524df50202c5d4fb01f5fd00c2f70301"
-  # Note on `rel` attribute:
-  # https://spencermortensen.com/articles/email-obfuscation/#link-conversion
-  # also recommends adding `noindex`, but I suspect that's not a valid value for `rel`, see:
-  # https://stackoverflow.com/a/55264065
-  # https://developers.google.com/search/docs/crawling-indexing/block-indexing
-  # https://www.w3schools.com/tags/att_a_rel.asp
-  rel = "nofollow"
+# TODO: use full-length key for obfuscation, don't include Email in the name here (insert it from the JS):
+# [[params.social]]
+#   name = "Email"
+#   icon = "fa-solid fa-envelope fa-2x"
+#   weight = 1
+#   url = "4d41494c544f1a4a54484552524df50202c5d4fb01f5fd00c2f70301"
+#   # Note on `rel` attribute:
+#   # https://spencermortensen.com/articles/email-obfuscation/#link-conversion
+#   # also recommends adding `noindex`, but I suspect that's not a valid value for `rel`, see:
+#   # https://stackoverflow.com/a/55264065
+#   # https://developers.google.com/search/docs/crawling-indexing/block-indexing
+#   # https://www.w3schools.com/tags/att_a_rel.asp
+#   rel = "nofollow"
 
 # TODO: update these
 # [[menu.main]]
