@@ -92,7 +92,7 @@ style = "github-dark"
   icon = "fa-solid fa-envelope fa-2x"
   weight = 1
   # TODO: obfuscate real address
-  url = "nbjmup;fybnqmfAfybnqmf/dpn"
+  url = "4d41494c544f1a4558414d504cf9d4f90cf5010400f9c2f70301"
   # Note on `rel` attribute:
   # https://spencermortensen.com/articles/email-obfuscation/#link-conversion
   # also recommends adding `noindex`, but I suspect that's not a valid value for `rel`, see:
