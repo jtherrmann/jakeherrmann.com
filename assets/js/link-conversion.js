@@ -5,8 +5,6 @@
 // https://spencermortensen.com/articles/email-obfuscation/#link-conversion
 // https://spencermortensen.com/articles/email-obfuscation/files/link-conversion.js
 
-// TODO: use more methods? e.g. https://spencermortensen.com/articles/email-obfuscation/#link-interaction
-
 'use strict';
 
 // The two shift values are random numbers between 1 and 255 (inclusive)
