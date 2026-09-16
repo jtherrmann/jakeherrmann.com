@@ -2,4 +2,4 @@
 title = 'Contact'
 +++
 
-{{< form >}}
+{{< contact-form >}}
