@@ -1,0 +1,49 @@
+/* TODO:
+ * view contact form on mobile
+ * what is box-sizing?
+ */
+
+form label {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+form input, textarea {
+    font-size: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 20rem;
+}
+
+form button {
+    font-size: 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 0;
+    margin-top: 0.5rem;
+    padding: 1.5rem;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+/* TODO: style button focus (selecting button with tab) */
+/* form button:focus { */
+/*     border: 2px solid; */
+/* } */
+
+.required {
+    color: red;
+}

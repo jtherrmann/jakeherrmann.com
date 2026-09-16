@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function ()
             .replace('ct', 'ple@exa')
             .replace('/', 'mai')
             .replace('nta', 'exam')
-            + 'mple.com'
+            .replace('/', 'mple.com')
         );
     }
 });
