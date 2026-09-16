@@ -1,11 +1,13 @@
-form label {
+body {
     font-size: 2rem;
+}
+
+form label {
     display: block;
     margin-bottom: 2rem;
 }
 
 form input, textarea {
-    font-size: 2rem;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid;
@@ -21,7 +23,6 @@ form textarea {
 }
 
 form button {
-    font-size: 2rem;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid;
