@@ -85,9 +85,15 @@ those parts would need to be uncommented in the [build script](./build.sh).
 
 All Cloudflare-related files in this project have a `Cloudflare` comment in them.
 
-TODO: left off at https://gohugo.io/host-and-deploy/host-on-cloudflare/#build-cache
+Cloudflare build limits and pricing:
+https://developers.cloudflare.com/workers/ci-cd/builds/limits-and-pricing/
 
-TODO: limited number of deployments per month on free plan? do deployments without changes count?
+TODO: It may be worth enabling the build cache for faster build times:
+- https://gohugo.io/host-and-deploy/host-on-cloudflare/#build-cache
+- https://developers.cloudflare.com/workers/ci-cd/builds/build-caching/
+
+TODO: Consider enabling scheduled builds if this project or chosen theme fetches remote assets at build time:
+https://gohugo.io/host-and-deploy/host-on-cloudflare/#scheduled-builds
 
 ### Sass
 
