@@ -1,8 +1,3 @@
-/* TODO:
- * view contact form on mobile
- * what is box-sizing?
- */
-
 form label {
     font-size: 2rem;
     display: block;
@@ -39,10 +34,12 @@ form button:hover {
     cursor: pointer;
 }
 
-/* TODO: style button focus (selecting button with tab) */
-/* form button:focus { */
-/*     border: 2px solid; */
-/* } */
+/* Use type="submit" rather than button to override the theme CSS. */
+/* Use focus-visible rather than focus to apply the styling only for
+   keyboard selection (Tab), not mouse click. */
+form [type="submit"]:focus-visible {
+    outline: 2px solid;
+}
 
 .required {
     color: red;
