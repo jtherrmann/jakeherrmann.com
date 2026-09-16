@@ -58,8 +58,7 @@ style = "github-dark"
   # Filepaths are relative to the assets/ dir:
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
-  # TODO: use less obvious filename:
-  # customJS = ["js/link-conversion.js"]
+  customJS = ["js/custom.js"]
 
 # TODO: what is this?
 [taxonomies]
@@ -89,19 +88,13 @@ style = "github-dark"
 #   icon = "fa-brands fa-gitlab fa-2x"
 #   weight = 1
 #   url = "https://gitlab.com/johndoe/"
-# TODO: use full-length key for obfuscation, don't include Email in the name here (insert it from the JS):
-# [[params.social]]
-#   name = "Email"
-#   icon = "fa-solid fa-envelope fa-2x"
-#   weight = 1
-#   url = "4d41494c544f1a4a54484552524df50202c5d4fb01f5fd00c2f70301"
-#   # Note on `rel` attribute:
-#   # https://spencermortensen.com/articles/email-obfuscation/#link-conversion
-#   # also recommends adding `noindex`, but I suspect that's not a valid value for `rel`, see:
-#   # https://stackoverflow.com/a/55264065
-#   # https://developers.google.com/search/docs/crawling-indexing/block-indexing
-#   # https://www.w3schools.com/tags/att_a_rel.asp
-#   rel = "nofollow"
+[[params.social]]
+  # TODO: change name to Email from JS?
+  name = "Contact"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 1
+  # TODO: create contact page
+  url = "/contact"
 
 # TODO: update these
 # [[menu.main]]
