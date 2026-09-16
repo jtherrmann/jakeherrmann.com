@@ -4,6 +4,8 @@
 
 'use strict';
 
+// TODO: require some form of user interaction?
+//   such as moving mouse or clicking link (left-click, right-click, middle-click, etc.)
 document.addEventListener('DOMContentLoaded', function ()
 {
     const a = document.querySelector('a[aria-label="Contact"]');
