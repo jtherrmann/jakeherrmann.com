@@ -2,6 +2,6 @@
 title = 'Contact'
 +++
 
-<!-- TODO: add email -->
+{{< email >}}
 
 {{< contact-form >}}

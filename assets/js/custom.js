@@ -4,20 +4,30 @@
 
 'use strict';
 
-// TODO: require some form of user interaction?
-//   such as moving mouse or clicking link (left-click, right-click, middle-click, etc.)
+function substitute(str) {
+    // Note: This does not fool an LLM, it's only meant to defeat basic pattern-matching.
+    return str
+        .replace('co', 'lto:')
+        .replace('ct', 'ct@jak')
+        .replace('/', 'mai')
+        .replace('nta', 'conta')
+        .replace('/', 'eherrm')
+        + 'ann.com'
+}
+
 document.addEventListener('DOMContentLoaded', function ()
 {
-    const a = document.querySelector('a[aria-label="Contact"]');
-    if (a) {
-        // Note: This does not fool an LLM, it's only meant to defeat basic pattern-matching.
-        // TODO: use real email
-        a.setAttribute('href', a.getAttribute('href')
-            .replace('co', 'lto:')
-            .replace('ct', 'ple@exa')
-            .replace('/', 'mai')
-            .replace('nta', 'exam')
-            .replace('/', 'mple.com')
-        );
+    const homepageLink = document.querySelector('a[aria-label="Email"]');
+    if (homepageLink) {
+        homepageLink.setAttribute('href', substitute(homepageLink.getAttribute('href')));
+    }
+
+    const contactArea = document.getElementById('contact-area');
+    if (contactArea) {
+        const contactLink = document.getElementById('contact-link');
+        const linkText = substitute(contactLink.getAttribute('href'));
+        contactLink.setAttribute('href', linkText);
+        contactLink.innerHTML = linkText.slice(7);
+        contactArea.style.display = 'inline';
     }
 });

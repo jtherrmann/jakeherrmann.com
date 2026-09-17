@@ -2,6 +2,10 @@ body {
     font-size: 2rem;
 }
 
+#contact-form {
+    margin-top: 5rem;
+}
+
 form label {
     display: block;
     margin-bottom: 2rem;

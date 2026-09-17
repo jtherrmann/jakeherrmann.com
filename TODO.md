@@ -1,7 +1,9 @@
 # TODO
 
 - See `TODO` items throughout repo.
-- Add Contact page with obfuscated email and fallback contact form?
-    - recommend reporting issues via github?
-    - link to contact page from 404 page in case email link decoding fails?
-- Use full-length key for email obfuscation
+- make repo public:
+    - rename repo first?
+    - recommend reporting issues via github on contact page
+    - add source code link to footer or nav menu?
+- first prod release:
+    - confirm all email links work

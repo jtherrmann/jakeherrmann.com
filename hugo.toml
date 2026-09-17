@@ -29,8 +29,8 @@ style = "github-dark"
 
   # TODO: update
   # info = "Running scientific workflows at scale"
-  # info = "Software Engineer"
-  info = "Under construction, check back later! 👷"
+  info = "Software Engineer"
+  # info = "Under construction, check back later! 👷"
 
   # TODO: where are these used?
   description = "Jake Herrmann's personal website"
@@ -89,8 +89,7 @@ style = "github-dark"
 #   weight = 1
 #   url = "https://gitlab.com/johndoe/"
 [[params.social]]
-  # TODO: change name to Email from JS?
-  name = "Contact"
+  name = "Email"
   icon = "fa-solid fa-envelope fa-2x"
   weight = 1
   url = "/contact/"
