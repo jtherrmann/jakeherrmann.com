@@ -11,3 +11,4 @@
     - see JS console warning
 - see JS console `Security Error: Content at https://develop-personal-site.jtherrmann1.workers.dev/ may not load or link to file:///.`
 - see other JS console warnings
+- retire old website
