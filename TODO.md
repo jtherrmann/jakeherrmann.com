@@ -1,6 +1,7 @@
 # TODO
 
 - See `TODO` items throughout repo.
+- use Cloudflare email routing to forward my contact email to my personal inbox
 - how to pin the theme to a particular release and update regularly?
 - make repo public:
     - rename repo first?
