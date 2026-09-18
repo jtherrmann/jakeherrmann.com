@@ -1,6 +1,7 @@
 # TODO
 
 - See `TODO` items throughout repo.
+- how to pin the theme to a particular release and update regularly?
 - make repo public:
     - rename repo first?
     - recommend reporting issues via github on contact page
