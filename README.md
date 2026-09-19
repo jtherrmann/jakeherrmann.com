@@ -24,12 +24,6 @@ Pushing to any other branch deploys to
 `https://<branch>-personal-site.jtherrmann1.workers.dev`,
 e.g. <https://develop-personal-site.jtherrmann1.workers.dev>.
 
-Test changes on `develop`, then release to prod via:
-
-```sh
-git switch main && git merge develop && git push && git switch develop
-```
-
 ## Theme
 
 Current theme: https://github.com/luizdepra/hugo-coder
