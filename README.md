@@ -1,4 +1,7 @@
-# hugo website
+# hugo-website
+
+My personal site created with Hugo and hosted at
+<https://jakeherrmann.com>.
 
 ## Setup
 
