@@ -5,7 +5,6 @@ title = "Jake Herrmann"
 locale = 'en-us'
 defaultcontentlanguage = "en"
 theme = "hugo-coder"
-enableGitInfo = true
 
 # Cloudflare
 [caches]
@@ -47,8 +46,6 @@ style = "github-dark"
   # favicon_16 = "/img/favicon-16x16.png"
 
   since = 2026
-
-  commit = "https://github.com/jtherrmann/jakeherrmann.com/tree/"
 
   # TODO: what is this?
   enableTwemoji = true
