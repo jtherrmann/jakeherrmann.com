@@ -47,6 +47,8 @@ style = "github-dark"
 
   since = 2026
 
+  commit = "https://github.com/jtherrmann/jakeherrmann.com/tree/"
+
   # TODO: what is this?
   enableTwemoji = true
 
