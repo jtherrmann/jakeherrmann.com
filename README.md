@@ -4,7 +4,9 @@
 
 ## Setup
 
-Install: https://gohugo.io/installation/linux/
+Install Hugo: https://gohugo.io/installation/linux/
+
+On Fedora:
 
 ```sh
 sudo dnf install hugo
