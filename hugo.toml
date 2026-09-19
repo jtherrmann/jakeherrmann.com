@@ -5,6 +5,7 @@ title = "Jake Herrmann"
 locale = 'en-us'
 defaultcontentlanguage = "en"
 theme = "hugo-coder"
+enableGitInfo = true
 
 # Cloudflare
 [caches]
