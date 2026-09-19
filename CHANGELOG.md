@@ -1,0 +1,25 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [Unreleased]
+
+## [0.1.0] - 2026-09-18
+
+Tested on the following platforms (private/incognito window, no extensions):
+
+- [x] Linux+Firefox
+- [ ] Windows+Firefox
+- [ ] Windows+Chrome
+- [x] Android+Firefox
+- [ ] Android+Chrome
+
+### Added
+
+- Personal website built with Hugo and the [hugo-coder](https://github.com/luizdepra/hugo-coder) theme, available at <https://jakeherrmann.com>.
+- Homepage with links to GitHub and email.
+- Contact page with email and contact form.
+- Email links are obfuscated and require JavaScript to load.
