@@ -1,0 +1,3 @@
+[submodule "hugo-coder-fork"]
+	path = themes/hugo-coder
+	url = https://github.com/jtherrmann/hugo-coder.git
