@@ -4,6 +4,12 @@
 
 ## Setup
 
+After cloning this repo, clone the theme with:
+
+```sh
+git submodule update --init
+```
+
 Install Hugo: https://gohugo.io/installation/linux/
 
 On Fedora:
