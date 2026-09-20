@@ -30,17 +30,29 @@ e.g. <https://develop-personal-site.jtherrmann1.workers.dev>.
 
 ## Theme
 
-Current theme: https://github.com/luizdepra/hugo-coder
+Current theme:
+[fork of hugo-coder](https://github.com/jtherrmann/hugo-coder)
 
 It was installed with:
 
 ```sh
-git submodule add https://github.com/luizdepra/hugo-coder.git themes/hugo-coder
+git submodule add --name hugo-coder-fork https://github.com/jtherrmann/hugo-coder.git themes/hugo-coder
 ```
+
+Note: `--name` was necessary to distinguish it from the previous submodule
+installed from the upstream theme repo.
 
 TODO: see https://github.com/luizdepra/hugo-coder#quick-start for more advice on configuring `hugo.toml`
 
 TODO: If https://github.com/luizdepra/hugo-coder/pull/991 is merged, can update `build.sh` to install standard Hugo rather than extended.
+
+If you want to remove a theme installed at `themes/foo/`, run:
+
+```sh
+git rm themes/foo/
+```
+
+After installing a new theme, update the `theme` field in [hugo.toml](./hugo.toml).
 
 ## Notes
 

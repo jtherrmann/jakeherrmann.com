@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Use a [fork of the hugo-coder theme](https://github.com/jtherrmann/hugo-coder) (so far no changes from upstream).
+
 ## [0.1.0] - 2026-09-18
 
 Tested on the following platforms (private/incognito window, no extensions):
