@@ -25,13 +25,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2026-09-18
 
-Tested on the following platforms (private/incognito window, no extensions):
+### Checklist
 
-- [x] Linux+Firefox
-- [ ] Windows+Firefox
-- [ ] Windows+Chrome
-- [x] Android+Firefox
-- [ ] Android+Chrome
+- [x] Test on the following platforms (private/incognito window, no extensions):
+  - [x] Linux+Firefox
+  - [x] Windows+Firefox
+  - [x] Windows+Chrome
+  - [x] Android+Firefox
+  - [x] Android+Chrome
 
 ### Added
 
