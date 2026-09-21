@@ -19,6 +19,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - [ ] Android+Firefox
   - [ ] Android+Chrome
 
+## [0.2.0] - 2026-09-21
+
+### Checklist
+
+- [x] Update theme:
+  - [x] Check if https://github.com/jtherrmann/hugo-coder is up to date with upstream.
+- [x] Test on the following platforms (private/incognito window, no extensions):
+  - [x] Linux+Firefox
+  - [x] Android+Firefox
+
 ### Changed
 
 - Use a [fork of the hugo-coder theme](https://github.com/jtherrmann/hugo-coder) (so far no changes from upstream).
