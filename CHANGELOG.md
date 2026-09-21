@@ -7,10 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-Release checklist:
-- [ ] Test on different platforms (see below).
+### Checklist
+
 - [ ] Check if https://github.com/jtherrmann/hugo-coder is up to date with upstream.
 - [ ] Pull latest changes into the theme submodule.
+- [ ] Test on the following platforms (private/incognito window, no extensions):
+  - [ ] Linux+Firefox
+  - [ ] Windows+Firefox
+  - [ ] Windows+Chrome
+  - [ ] Android+Firefox
+  - [ ] Android+Chrome
 
 ### Changed
 
