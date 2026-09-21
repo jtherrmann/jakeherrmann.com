@@ -8,10 +8,10 @@
 # Exit on error, undefined variables, or pipe failures
 set -euo pipefail
 
-# TODO: how to keep up-to-date?
 # Define tool versions
 # DART_SASS_VERSION=1.104.0
 # GO_VERSION=1.27.0
+# https://github.com/gohugoio/hugo/releases
 HUGO_VERSION=0.166.0
 # NODE_VERSION=24.20.0
 

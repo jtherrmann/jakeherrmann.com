@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Checklist
 
+- [ ] Check for new versions of tools installed in [`build.sh`](./build.sh) and update the script if needed.
 - [ ] Update theme:
   - [ ] Check if https://github.com/jtherrmann/hugo-coder is up to date with upstream.
   - [ ] Pull latest changes into the theme submodule.
