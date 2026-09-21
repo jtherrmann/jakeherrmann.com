@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+Release checklist:
+- [ ] Test on different platforms (see below).
+- [ ] Check if https://github.com/jtherrmann/hugo-coder is up to date with upstream.
+- [ ] Update the local [`themes/hugo-coder/`](./themes/hugo-coder/).
+
 ### Changed
 
 - Use a [fork of the hugo-coder theme](https://github.com/jtherrmann/hugo-coder) (so far no changes from upstream).
